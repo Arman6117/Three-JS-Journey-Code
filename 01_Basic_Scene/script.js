@@ -17,7 +17,7 @@ const camera = new THREE.PerspectiveCamera(75, size.width / size.height);
 //!First parameter FOV:- Field of view for user
 //!Second parameter aspect ration of camera
 
-camera.position.z = 3;
+camera.position.z = 3;``
 scene.add(camera);
 
 const canvas = document.querySelector(".webgl");
